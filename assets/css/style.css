@@ -27,6 +27,19 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.btn-primary {
+  background-color: #FF5C06;
+  border: #FF5C06 1px solid;
+}
+
+.btn-primary:hover {
+  background-color: #26658B;
+}
+
+.btn-primary:active {
+  background-color: #FF5C06;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -1132,6 +1145,7 @@ section {
   background: #343a40;
   position: relative;
   overflow: hidden;
+  border-radius: 14px;
 }
 .team .member .member-info {
   opacity: 0;
