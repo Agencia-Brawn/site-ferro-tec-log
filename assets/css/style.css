@@ -831,6 +831,8 @@ section {
 .services .icon-box img{
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+  width: 100%;
+  height: auto;
 }
 .services .icon-box .icon {
   margin: 0 auto;
@@ -1635,4 +1637,20 @@ section {
 
 .modal-backdrop {
   position: none;
+}
+
+
+/* PÁGINA DE CURSOS */
+
+#cursos .portfolio-details .portfolio-info {
+  border-radius: 12px;
+  transform: translateY(0px);
+  transition: all 0.4s;
+}
+
+#cursos .portfolio-details .portfolio-info:hover {
+  background-color: #FF5C06;
+  transform: translateY(-20px);
+  transition: all 0.4s;
+  color: #fff;
 }
