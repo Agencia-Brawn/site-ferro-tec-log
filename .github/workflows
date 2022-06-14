@@ -1,4 +1,4 @@
-name: "GitHub Actions: Deploy para produção "
+name: "GitHub Actions: Deploy para produção."
 on:
   # Evento
   push:
