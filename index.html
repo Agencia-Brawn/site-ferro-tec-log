@@ -51,6 +51,36 @@
         color: #fff;
       }
 
+      .swiper-button-next {
+        right: -120px;
+        background-color: #ed502e;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        color: #fff;
+        transition: 0.4s;
+      }
+
+      .swiper-button-next:hover {
+        background-color: #0f2f57;
+        transition: 0.4s;
+      }
+
+      .swiper-button-prev {
+        left: -120px;
+        background-color: #ed502e;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        color: #fff;
+        transition: 0.4s;
+      }
+
+      .swiper-button-prev:hover {
+        background-color: #0f2f57;
+        transition: 0.4s;
+      }
+
       .swiper-slide:nth-child(1n) {
         background-color: rgb(206, 17, 17);
       }
@@ -370,6 +400,8 @@
                 <img src="/assets/img/portfolio-cursos/page-002.jpg" alt="" srcset="">
               </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
         </div>
       </div>
@@ -1505,6 +1537,13 @@
     var swiper = new Swiper(".mySwiper", {
       effect: "cards",
       grabCursor: true,
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
     });
   </script>
 
